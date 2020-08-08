@@ -41,7 +41,7 @@ public class AnotherWorker {
     private static void doWorker(String message) throws InterruptedException {
         for (char ch : message.toCharArray()) {
             if (ch == '.') {
-                Thread.sleep(1000);
+                Thread.sleep(3000);
             }
         }
     }
