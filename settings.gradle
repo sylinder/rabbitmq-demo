@@ -1,4 +1,5 @@
 rootProject.name = 'rabbitmq-demo'
 include 'simple-pattern'
 include 'workqueue-pattern'
+include 'publish_subscribe'
 
