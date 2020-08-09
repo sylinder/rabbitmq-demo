@@ -1,0 +1,7 @@
+Topic pattern is similar to routing pattern but use BuiltinExchangeType.TOPIC to indicate the exchange.
+
+In topic pattern, queue use wildcard to match some classes message.
+
+In this case, '#' match one or more word and '*' match only one.
+
+eg: china.# match china.news, china.sports, china.sweater...

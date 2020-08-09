@@ -3,4 +3,5 @@ include 'simple-pattern'
 include 'workqueue-pattern'
 include 'publish_subscribe'
 include 'routingpattern'
+include 'springboot-rabbitmq'
 
